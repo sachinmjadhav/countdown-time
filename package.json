@@ -1,6 +1,6 @@
 {
   "name": "react-test-countdown-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Library used to countdown time",
   "main": "index.js",
   "scripts": {
