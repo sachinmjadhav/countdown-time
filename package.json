@@ -1,7 +1,7 @@
 {
-  "name": "minimal-react-boilerplate",
+  "name": "countdown-timer",
   "version": "1.0.0",
-  "description": "A minimal react boilerplate with webpack, babel and sass support.",
+  "description": "A React Library used to countdown time",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack/webpack.dev.js --mode development --open --hot",
@@ -11,10 +11,10 @@
     "format": "prettier \"**/*.{md,mdx,yml,css,scss} \" --write",
     "test": "jest && echo \"ALL TESTS PASSED!\" && exit 0"
   },
-  "author": "rishichawda",
+  "author": "sachinjadhav",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/rishichawda/minimal-react-boilerplate"
+    "url": "https://github.com/sachinmjadhav/countdown-time.git"
   },
   "husky": {
     "hooks": {
