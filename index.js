@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './index.css'
 
 class Countdown extends Component {
   constructor(props) {
@@ -43,23 +44,23 @@ class Countdown extends Component {
   render() {
     const { days, hours, minutes, seconds, time_up } = this.state;
     return (
-      <div>
-        <h1>Countdown Clock</h1>
-        <div id="clockdiv">
-          <div>
-            <span className="days" id="day">{days}</span>
+      <div className="countdown">
+        <h1 className="countdown__title">Countdown Clock</h1>
+        <div id="clockdiv" className='countdown__timers'>
+          <div className="countdown__timers__ele">
+            <span className="days countdown__timers__ele--times" id="day">{days}</span>
             <div className="smalltext">Days</div>
           </div>
-          <div>
-            <span className="days" id="day">{hours}</span>
+          <div className="countdown__timers__ele">
+            <span className="days countdown__timers__ele--times" id="day">{hours}</span>
             <div className="smalltext">Hours</div>
           </div>
-          <div>
-            <span className="days" id="day">{minutes}</span>
+          <div className="countdown__timers__ele">
+            <span className="days countdown__timers__ele--times" id="day">{minutes}</span>
             <div className="smalltext">Minutes</div>
           </div>
-          <div>
-            <span className="days" id="day">{seconds}</span>
+          <div className="countdown__timers__ele">
+            <span className="days countdown__timers__ele--times" id="day">{seconds}</span>
             <div className="smalltext">Seconds</div>
           </div>
         </div>
