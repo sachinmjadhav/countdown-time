@@ -1,5 +1,5 @@
 {
-  "name": "countdown-timer",
+  "name": "react-test-countdown-timer",
   "version": "1.0.0",
   "description": "A React Library used to countdown time",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "format": "prettier \"**/*.{md,mdx,yml,css,scss} \" --write",
     "test": "jest && echo \"ALL TESTS PASSED!\" && exit 0"
   },
-  "author": "sachinjadhav",
-  "license": "MIT",
+  "author": "sachinmjadhav",
+  "license": "ISC",
   "repository": {
     "url": "https://github.com/sachinmjadhav/countdown-time.git"
   },
